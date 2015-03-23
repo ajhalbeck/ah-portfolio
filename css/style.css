@@ -1,0 +1,179 @@
+body {
+  /*Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff !important;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation > .content {
+  padding: 0px 15px;
+}
+.top-navigation .links {
+  float: right;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #A56D01;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 25px;
+  -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+}
+.top-navigaton .links > .active{
+  color: #A56D01;
+  font-weight: 600;
+}
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+.location,
+.questions,
+.content-footer {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.masthead-intro,
+.masthead-heading,
+.content-footer > p,
+.social {
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/FApW7SC.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #BF9100 !important;
+}
+.masthead-intro{
+  margin-bottom: 0.1em; 
+  font-family: "Gentiuum Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+h1 {
+  color: #A56D01
+}
+h2 {
+  color: #3B322C
+}
+.masthead-heading{
+  margin-top: -0.2em;
+  font-family: "Ope Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFF1C2;
+  text-shadow: 0px 3px 0px #FFCF33;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.social {
+  padding: 1;
+  list-style: none;
+}
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+section > h1 {
+  margin-top: 2em;
+}
+.content-footer {
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: #3B322C
+}
+.content-footer > p {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #A86D04
+}
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #A86D04
+}
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #A86D04
+}
+a: active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #A86D04
+}
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+      font-size: 3em; 
+  }
+  .content-footer {
+    padding: 2.5em 0;
+  }
+  .introduction-section,
+  .location-section,
+  .questions-section {
+    max-width: 38em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 0.9em;
+  }
+}
+.portfolio {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.portfolio h1 {
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+.portfolio h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  margin-top: 1em !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
