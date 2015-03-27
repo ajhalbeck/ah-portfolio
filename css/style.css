@@ -54,7 +54,7 @@ body {
     margin: 0 auto;
     width: 454px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 div {
     display: block;
@@ -79,18 +79,23 @@ li {
     float: left;
     margin-right: 10px;
 }
+#navigation a {
+    text-decoration: none;
+    color: #222;
+    padding: 6px;
+}
 .name {
     font-family: 'Quicksand', sans-serif;
     font-size: 90px;
     font-weight: 300;
-    float: center;
+    text-align: center;
     ;
 }
 #last-name {
     font-weight: 500;
 }
 .logo {
-    background-image: url(../img/portfolio-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
 }
