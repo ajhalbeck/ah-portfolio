@@ -54,7 +54,7 @@ body {
     margin: 0 auto;
     width: 454px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 21px;
+    font-size: 22px;
 }
 div {
     display: block;
@@ -93,9 +93,4 @@ li {
 }
 #last-name {
     font-weight: 500;
-}
-.logo {
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
 }

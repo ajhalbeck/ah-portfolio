@@ -54,7 +54,7 @@ body {
     margin: 0 auto;
     width: 454px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 21px;
+    font-size: 22px;
 }
 div {
     display: block;
@@ -90,12 +90,67 @@ li {
     font-weight: 300;
     text-align: center;
     letter-spacing: -.02em;
+    text-decoration: none;
+    font-color: #222;
 }
 #last-name {
     font-weight: 500;
 }
-.logo {
-    background-position: center;
-    background-repeat: no-repeat;
+#content p {
+    margin: 0 auto;
+    width: 510px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.bold-first {
+    font-weight: 700;
+}
+.footer{
+    display: block;
+}
+.social{
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
     text-align: center;
+}
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .content{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+.social h5 {
+    display: block;
+    color: black;
+    font: inherit;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .linkedin {
+    color: #4c66a4 ;
+}
+.social .instagram {
+    color: #3f729b ;
+}
+.social .twitter {
+    /**/color: #55acee ;
+    
 }
