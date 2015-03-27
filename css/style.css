@@ -43,57 +43,50 @@ ol, ul {
 /* End of Reset */
 /* Start of Custom Styles */
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: white;
-    letter-spacing: 0.03em
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    color: #222;
+    line-height: 1.231;
+    display: block;
 }
-/* Navigation Section */
-.top-navigation {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
+#navigation {
+    height: 50px;
+    margin: 0 auto;
+    width: 454px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
-.top-navigation > .content {
-    height: 70px;
-    padding: 0px 15px;
+div {
+    display: block;
 }
-.top-navigation .links {
-    color: black;
-    font-family: 'Raleway', sans-serif !important;
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#navigation ul {
+    list-style-type: none;
+}
+#navigation ul li {
     float: left;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
+    margin-right: 10px;
 }
-.top-navigation .icons > li {
-    border-radius: 1.25rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    display: inline-block;
-    margin: 1.25rem 5px;
-    border: 1px solid #eaebec;
-    text-align: center;
-    float: right;
+.name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+    float: center;
+    ;
 }
-.top-navigation .linkedin {
-    color: #3f729b
+.logo {
+    background-image: url(../img/portfolio-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.top-navigation .instagram {
-    color: #4c66a4;
-}
-.top-navigation .twitter {
-    color: #55acee;
-}
-
-.introduction {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    color: black;
-}
-
-
-
-
-
