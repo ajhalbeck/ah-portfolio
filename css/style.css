@@ -81,9 +81,13 @@ li {
 }
 .name {
     font-family: 'Quicksand', sans-serif;
-    font-size: 70px;
+    font-size: 90px;
+    font-weight: 300;
     float: center;
     ;
+}
+#last-name {
+    font-weight: 500;
 }
 .logo {
     background-image: url(../img/portfolio-background.jpg);
