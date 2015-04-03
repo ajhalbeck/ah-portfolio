@@ -94,9 +94,25 @@ li {
 #last-name {
     font-weight: 500;
 }
-table, td {
-    border: 1px solid black;
+td {
+    border-bottom: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
+table {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.project-img {
+    width: 30%;
+
+}
+.title {
+    font-weight: 700;
+    vertical-align: top;
+    padding: 40px;
+}
+
 .social{
     background-color: #fff;
     overflow: auto;
@@ -140,4 +156,8 @@ table, td {
 }
 .social .twitter {
     color: #55acee ;  
+}
+h1 a {
+    text-decoration: none;
+    color: #222;
 }

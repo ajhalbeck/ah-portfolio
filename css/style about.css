@@ -109,7 +109,7 @@ li {
 .footer{
     display: block;
 }
-.social{
+.social {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
@@ -152,4 +152,8 @@ li {
 }
 .social .twitter {
     color: #55acee ;
+}
+h1 a {
+    text-decoration: none;
+    color: #222;
 }
